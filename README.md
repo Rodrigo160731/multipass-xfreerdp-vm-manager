@@ -31,7 +31,7 @@ Clone este repositório e execute o script principal:
 
 ```bash
 git clone https://github.com/Rodrigo160731/multipass-xfreerdp-vm-manager.git
-cd multipass-vm-manager
+cd multipass-xfreerdp-vm-manager && cd multipass-vm-manager
 python3 main.py
 ```
 
