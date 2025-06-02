@@ -157,7 +157,7 @@ def criar_vm():
 
     print("\nInstalando XRDP + Openbox + xterm...")
     subprocess.run(["multipass", "exec", name, "--", "sudo", "apt", "update", "-y"])
-    subprocess.run(["multipass", "exec", name, "--", "sudo", "apt", "install", "-y", "xrdp", "openbox", "xterm", "x11-xserver-utils"])
+    subprocess.run(["multipass", "exec", name, "--", "sudo", "apt", "install", "-y", "xrdp", "openbox", "xterm", "x11-xserver-utils", "firefox"])
 
     print("\nConfigurando sessão gráfica com Openbox...")
     #subprocess.run(["multipass", "exec", name, "--", "bash", "-c", 'echo "exec openbox-session" > /home/ubuntu/.xsession'])
